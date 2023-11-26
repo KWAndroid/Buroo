@@ -96,6 +96,16 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+    <ProgressBar
+        android:id="@+id/miniProgressSb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/main_player_cl"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:max="100000"
+        app:layout_constraintStart_toStartOf="parent"/>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/main_bnv"
         android:layout_width="match_parent"
